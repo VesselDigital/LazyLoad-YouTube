@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "vesseldigital/lazyload-youtube",
+	"title": "Lazy Load YouTube",
+	"category": "embed",
+	"description": "Add the videos thumbnail that you can click on the start playing the video.",
+	"textdomain": "default",
+	"attributes": {
+		"url": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"align": true,
+		"spacing": {
+			"margin": true
+		}
+	}
+}
